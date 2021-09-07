@@ -4,15 +4,70 @@
 <meta charset="utf-8">
 <title>We've done this so far</title>
 <style>
-.main_title {
-	color: green;
+
+.main_title{
+	color:  cornflowerblue;
+	text-align: center;
+	font-family: Cambria;
 }
+
+.section_title{
+	color: slateblue;
+	font-family: Heveltica;
+}
+
+.margem{
+	margin: 50px;
+}
+.standart_text{
+	font-size: 30px;
+}
+
+.section_font{
+	font-size: 40px;
+}
+
+/*.footers{
+	width: 100%;
+}*/
+
+a:link, a:visited{
+	color: brown;
+	background: lavender; width:  200px; text-align: center;
+	border: 1px lightgoldenrodyellow
+}
+
+
 </style>
 </head>
 <body>
-<header>
-	<h1 class="main_title">What I've learned until the beginning of module 2</h1>
-</header>
-<p class="main_title">Idk what happened</p>
+<h1 class="main_title">What I've learned until the beginning of module 2</h1>
+<ol>
+	<li><a href="#section1">HTML Content Models</a></li>
+	<li><a href="#section2">Characters Entity References</a></li>
+	<li><a href="#section3">Some Links/Images I Like</a></li>
+</ol>
+<section id="section1">
+	<h2 class="section_title section_font">Im starting this section</h2>
+	<span class="margem standart_text">A ordem de edição da página não está em ordem cronológica de acordo com o display HTML, isto é, a parte superior não foi editada antes da parte inferior, necessariamente. A imagem que disse que iria inserir sera inserida nesta primeira seção e não poderia ser uma imagem diferente, senão a do meu anime favorito</span>
+</section>
+
+<section id="section2">
+	<h2 class="section_title section_font">Im starting this section</h2>
+	<span class="margem standart_text">I'm going to test what happens if i put a paragraph here. Agora vou começar a escrever em português, porque quero ver se o texto será mostrado sem margem na segunda linha ou se também terá margem, similarmente à primeira. Ainda não consegui texto suficiente para fazer o teste, portanto, sigo escrevendo mais palavras neste arquivo.</span>
+	<center>
+		<img src="https://melhores-filmes-netflix.com/wp-content/uploads/2021/06/Temporadas-5-6-de-Hunter-X-Hunter-chegando-a-Netflix-em.png.webp" width="1280" height="720" alt="Arco de York Shin, HunterxHunter">
+	</center>
+</section>
+
+<section id="section3">
+	<h2 class="section_title section_font">Im starting this section</h2>
+	<span class="margem standart_text">O teste com a margem foi feito com sucesso. A segunda linha é mostrada normalmente como se estivesse sendo feita por um editor de texto como o word. A partir de agora, começarei a inserir imagens para ver se o funcionamento dos links que implementei está correto e o resultado de cada teste da página será registrado na própria página.</span>
+
+</section>
+
+
+<footer><center>I've created this to practice, nothing more :)</center></footer>
+
 </body>
 </html>
