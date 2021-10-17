@@ -1,0 +1,68 @@
+body{
+	background-color: #CCE2E4;
+	font-size: 16px;
+	font-family: "Times New Roman", sans-serif;
+}
+
+#navbar-header{
+	background-color: #0047AB;
+	border-radius: 0;
+	border: 0;
+}
+#brand-text{
+	font-size: 40px;
+	color: white;
+}
+#menu-text{
+	font-size: 20px;
+	color: white;
+	margin-bottom:10px;
+}
+li{
+	font-size: 20px;
+}
+#nav-list{
+	margin-bottom: 10px;
+}
+#nav-list a{
+	color: white;
+}
+#nav-list a:hover{
+	background: #0096FF;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	border: 1px solid #CCE2E4; 
+}
+#heading-title{
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bg-alt{
+	background-color: #89CFF0;
+	font-size: 20px;
+	text-align: center;
+}
+#sec-title{
+	text-align: center;
+	background-color: #89CFF0;
+}
+.container-fluid .row section div{
+	margin: 10px;
+	padding: 5px;
+}
+ul#nav-list.nav.navbar-nav{
+	background-color: #088F8F;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+p{
+	margin: 5px;
+}
+
+
+@media (max-width: 767px){
+	#brand-text{
+		font-size: 32px;
+	}
+}
