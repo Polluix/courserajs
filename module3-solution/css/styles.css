@@ -4,6 +4,7 @@ body{
 	font-family: "Times New Roman", sans-serif;
 }
 
+/*NAVBAR*/
 #navbar-header{
 	background-color: #0047AB;
 	border-radius: 0;
@@ -18,9 +19,6 @@ body{
 	color: white;
 	margin-bottom:10px;
 }
-li{
-	font-size: 20px;
-}
 #nav-list{
 	margin-bottom: 10px;
 }
@@ -33,6 +31,17 @@ li{
 .navbar-default .navbar-toggle .icon-bar{
 	border: 1px solid #CCE2E4; 
 }
+ul#nav-list.nav.navbar-nav{
+	background-color: #088F8F;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+li{
+	font-size: 20px;
+}
+/*END OF NAVBAR*/
+
+/*SECTIONS*/
 #heading-title{
 	font-size: 30px;
 	margin-top: 10px;
@@ -51,16 +60,13 @@ li{
 	margin: 10px;
 	padding: 5px;
 }
-ul#nav-list.nav.navbar-nav{
-	background-color: #088F8F;
-	margin-bottom: 0;
-	margin-top: 0;
-}
 p{
 	margin: 5px;
 }
+/*END OF SECTIONS*/
 
 
+/****************** EXTRA SMALL SCREENS ONLY ******************/
 @media (max-width: 767px){
 	#brand-text{
 		font-size: 32px;
